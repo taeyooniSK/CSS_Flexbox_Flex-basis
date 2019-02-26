@@ -1,0 +1,48 @@
+.box {
+    text-align: center;
+    padding: 10px;
+    font-size: 50px;
+    font-weight: 700;
+    box-sizing: border-box;
+    flex-basis: 1000px; /*만약 container의 공간이 충분하지 못한 경우 flex-basis의 넓이 또는 높이를 수용하지 못하면 shrink down to fit in the container */
+}
+
+.box-1 {
+    background-color: red;
+}
+.box-2 {
+    background-color: orangered;
+}
+.box-3 {
+    background-color:  orange;
+    /* flex-basis: 300px; */
+}
+.box-4 {
+    background-color :yellow;
+}
+/* .box-5 {
+    background-color: yellowgreen;
+}
+.box-6 {
+    background-color: green;
+}
+.box-7 {
+    background-color: mediumaquamarine;
+}
+
+.box-8 {
+    background-color: blue;
+}
+.box-9 {
+    background-color: plum;
+} */
+
+.container {
+    display:flex;
+    border: 10px solid black;
+    height: 80vh;
+    flex-direction: row;
+    align-items: flex-start;
+    /* flex-direction: column; */
+
+}
